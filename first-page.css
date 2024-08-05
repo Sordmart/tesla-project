@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('path/to/fonts/Gotham-Regular.woff2') format('woff2'),
+         url('path/to/fonts/Gotham-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Gotham';
+    src: url('path/to/fonts/Gotham-Bold.woff2') format('woff2'),
+         url('path/to/fonts/Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+  
+
+body{
+    margin: 0;
+    font-family: 'Gotham', Arial, sans-serif;
+    color: black;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 0.8rem;
+    padding-bottom: 0;
+    /* padding-left: 100px; */
+    padding-right: 50px;
+    font-family: 'Gotham', Arial, sans-serif;
+}
+.menu1{
+    margin: 0;
+    padding-top: 0px;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+    font-size: small;
+    font-weight: 700;
+    
+}
+.logo{
+    padding-left: 50px;
+}
+.menu2{
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+    font-family: un;
+}
+.Contact{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 100px;
+    font-family: 'Gotham', Arial, sans-serif;
+}
+.inline{
+    padding-left: 340px;
+}
+.row-first{
+    display: flex;
+    
+    padding-left: 340px;
+    gap: 25px;
+    
+    
+    
+}
+.column-first{
+    padding-top: 50px;
+	height: 620px;
+    width: 800px;
+    /* border: 2px solid; */
+
+
+}
+.sales1{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 0;
+    font-family: 'Gotham', Arial, sans-serif;
+    padding-top: 15px;
+    /* line-height: 2rem; */
+
+}
+.sales2{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Gotham', Arial, sans-serif;
+    line-height: 3rem;
+    
+}
+.read2 a:hover{
+    text-decoration-thickness: 2px;
+    
+}
+
+.thick{
+  text-decoration-thickness: 1.2px;
+}
+
+.press{
+    line-height: 1.2rem;
+}
+
+.inline2{
+    padding-left: 340px;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 40px;
+    
+}
+
+.sales22{
+    padding-top: 15px;
+    line-height: 1rem;
+    font-family: 'Gotham', Arial, sans-serif;
+}
+
+.row-first2{
+    display: flex;
+    padding-left: 340px;
+    padding-right: 340px;
+    gap: 25px;
+    padding-bottom: 10px;
+
+}
+.maps{
+    line-height: 2rem;
+}
+.column-first1{
+    padding-top: 20px;
+	height: 350px;
+    width: 800px;
+    border: 0px solid;
+
+
+}
+.footer2{
+    /* word-spacing: 10px; */
+    display: flex;
+    padding-top: 60px;
+   font-size: 13px;
+    padding-inline: 30%;
+    /* text-align: center; */
+    background-color: white;
+    color: black;
+    gap: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    font-family: 'Gotham', Arial, sans-serif;
+}

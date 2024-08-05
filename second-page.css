@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('path/to/fonts/Gotham-Regular.woff2') format('woff2'),
+         url('path/to/fonts/Gotham-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Gotham';
+    src: url('path/to/fonts/Gotham-Bold.woff2') format('woff2'),
+         url('path/to/fonts/Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+  
+body{
+    margin: 0;
+    font-family: 'Gotham', Arial, sans-serif;
+    color: black;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 0.8rem;
+    padding-bottom: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.menu1{
+    margin: 0;
+    padding-top: 0px;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+    font-size: small;
+    font-weight: 700;
+    
+}
+.menu2{
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+    font-family: un;
+}
+.logo{
+    padding-left: 50px;
+}
+.nav-1{
+    background-image: url("media/qnwdglgs.png");
+    background-size: cover;
+    height: 580px;
+    background-position: center;
+    
+
+}
+img{
+    mix-blend-mode: multiply;
+}
+.Privacy{
+    padding-left: 370px;
+    padding-top: 50px;
+    font-family: 'Gotham', Arial, sans-serif;
+    font-weight: 550;
+    font-size: 37px;
+}
+.privacy2{
+    padding-top: 80px;
+    font-family: 'Gotham', Arial, sans-serif;
+    
+}
+
+.inline{
+    padding-left: 365px;
+}
+.sales2{
+    font-size: 13.2px;
+    font-weight: 400;
+    font-family: 'Gotham', Arial, sans-serif;
+    line-height: 2rem;
+    
+}
+.spacing{
+    line-height: 1.5rem;
+}
+
+.read a:hover{
+    color: black;
+    
+}
+.read{
+    line-height: 1rem;
+}
+.row-first{
+    display: flex;
+    padding-left: 365px;
+    gap: 150px;
+    width: 700px;
+    
+    
+    
+}
+.column-first{
+    padding-top: 50px;
+	height: 470px;
+    width: 270px;
+    border: px solid;
+
+
+}
+.heading{
+    font-weight: 600;
+    font-size: large;
+    font-family: 'Gotham', Arial, sans-serif;
+}
+.heading2{
+    line-height: 1.5rem;
+}
+.column-first2{
+    padding-top: 25px;
+	height: 300px;
+    width: 2000px;
+    border: px solid;
+
+
+}
+.row-first2{
+    display: flex;
+    padding-left: 365px;
+    gap: 150px;
+    width: 1500px;
+    
+    
+    
+}
+.read2 a:hover{
+    text-decoration-thickness: 2px;
+    font-size: 14px;
+    font-family: 'Gotham', Arial, sans-serif;
+}
+.read2{
+    font-size: 14px;
+    font-family: 'Gotham', Arial, sans-serif;
+}
+.sales22{
+    line-height: 1.5rem;
+}
+.footer2{
+   
+    display: flex;
+    padding-top: 10px;
+    font-size: 13px;
+    padding-inline: 30%;
+    
+    background-color: white;
+    color: black;
+    gap: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    font-family: 'Gotham', Arial, sans-serif;
+}
+    
+    
